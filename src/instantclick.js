@@ -584,7 +584,9 @@ var instantClick
   return {
     supported: supported,
     init: init,
-    on: on
+    on: on,
+    display: display,
+    preload: preload,
   }
 
 }(document, location, navigator.userAgent);
